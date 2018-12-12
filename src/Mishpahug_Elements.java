@@ -14,6 +14,7 @@ public class Mishpahug_Elements {
         driver.get("http://mish.sheygam.com/#/wellcome");
         System.out.println(driver.getTitle());
         WebElement button = driver.findElement(By.xpath("//span[contains(text(),'Go to Event list')]"));
+        System.out.println("ff");
 
         driver.quit();
     }
